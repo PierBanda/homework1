@@ -1,24 +1,16 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 #include <iostream>
-/**
-* This tutorial demonstrates simple receipt of messages over the ROS system.
-*/
-/**void chatterCallback(const std_msgs::String::ConstPtr& msg)
-{
-ROS_INFO("I heard: [%s]", msg->data.c_str());
-}
-**/
-
+/* the option node take a char from console, and if is valid, publish the char*/
 int main(int argc, char **argv)
 {
-	ros::init(argc, argv, "options");
+	ros::init(argc, argv, "options");/*inizialize ros node*/
 	ros::NodeHandle n;
 
-	ros::Publisher chatter_pub = n.advertise<std_msgs::String>("viewOption", 2);
+	ros::Publisher chatter_pub = n.advertise<std_msgs::String>("viewOption", 2); /*inizialize topic*/
 
-  ros::Rate loop_rate(1);
-
+  ros::Rate loop_rate(1); /*1 Hz*/
+  /*chow to the user the allowed options*/
   std::cout << "opzioni per la visualizzazione delle info:\n";
   std::cout << "(a) tutte le informazioni:\n";
   std::cout << "(n) stampa solo i nomi:\n";
@@ -31,11 +23,11 @@ int main(int argc, char **argv)
      */
     std_msgs::String msg;
 
-    std::cin >> msg.data;
+    std::cin >> msg.data; /*wait for a user input*/
    
-
-	// ROS_INFO("%s", msg.data.c_str());
-
+	/* show the current input
+	ROS_INFO("%s", msg.data.c_str());
+	*/
 
 
     /**
@@ -52,7 +44,7 @@ int main(int argc, char **argv)
 	    chatter_pub.publish(msg);
 	}
 	else 
- 	    std::cout << "valore non valido!:\n";
+ 	    std::cout << "valore non valido!:\n"; /*error message if the input is not allowed*/
 
     ros::spinOnce();
 
