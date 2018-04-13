@@ -10,7 +10,7 @@ void changeViewOption(const std_msgs::String::ConstPtr& opt)
 {
 
   currentOption = *opt->data.c_str();
-  std::cout << "opzioni cambiate:";
+  std::cout << "opzioni cambiate:" << "\n" ;
   switch(currentOption) {
 	case 'a' :
  		std::cout << "stampo tutti i dati" << "\n";
