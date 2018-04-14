@@ -11,7 +11,7 @@ il pogetto è composto da tre nodi:
 info_pub
 
 pubblica il nome l'età e il corso di studio di una persona i cui dati sono salvati in my_database.h
-i dati di una persona vengono pubblicati tramitte un messaggio del tipo info_msg
+i dati di una persona vengono pubblicati tramitte un messaggio del tipo info_msg tramite il topic info_persona
 
 info_msg è formato da 
 * string name -> nome di una persona
@@ -21,6 +21,7 @@ info_msg è formato da
 option
 
 il nodo option indica a viewer la forma in cui verrà stampato il messaggio distribuito da info_pub
+con un messaggio composto solo da una stringa tramite il topic viewOption
 le opzioni possibili sono:
 * a all
 * n solo il nome
