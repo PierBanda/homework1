@@ -21,10 +21,10 @@ option
 
 il nodo option indica a viewer la forma in cui verrà stampato il messaggio distribuito da info_pub
 le opzioni possibili sono:
-⋅⋅*a all
-⋅⋅*n solo il nome
-⋅⋅*e solo l'età
-⋅⋅*c solo il corso
+⋅⋅* a all
+⋅⋅* n solo il nome
+⋅⋅* e solo l'età
+⋅⋅* c solo il corso
 di default il viewer stampa tutti i dati (a)
 l'opzione è configurabile tramite console dall'utente
 
