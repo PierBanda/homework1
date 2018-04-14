@@ -37,6 +37,7 @@ stampa nella console i dati ricevuti nella forma stabilita
 rappresentazione grafica dei nodi:
 ------------------------------------------------------------------------------------------------------------------------------
 ![Schema dei nodi](https://github.com/PierBanda/homework1/blob/master/img/rosgraph.png)
+
 esempio esecuzione
 ------------------------------------------------------------------------------------------------------------------------------
 ![esempio esecuzione](https://github.com/PierBanda/homework1/blob/master/img/Schermata%20del%202018-04-14%2011-39-40.png)
