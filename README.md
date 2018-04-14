@@ -36,10 +36,10 @@ stampa nella console i dati ricevuti nella forma stabilita
 
 rappresentazione grafica dei nodi:
 ------------------------------------------------------------------------------------------------------------------------------
-![Schema dei nodi](homework1/img/rosgraph.png)
+![Schema dei nodi](https://github.com/PierBanda/homework1/blob/master/img/rosgraph.png)
 esempio esecuzione
 ------------------------------------------------------------------------------------------------------------------------------
-![esempio esecuzione](homework1/img/Schermata del 2018-04-14 11-39-40.png)
+![esempio esecuzione](https://github.com/PierBanda/homework1/blob/master/img/Schermata%20del%202018-04-14%2011-39-40.png)
 
 installazione:
 ------------------------------------------------------------------------------------------------------------------------------
