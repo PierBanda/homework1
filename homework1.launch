@@ -1,5 +1,5 @@
 <launch>
-	<node name="info_pub" pkg="homework1" type="info_pub" output="screen" launch-prefix="gnome-terminal --command"/>
+	<node name="info_pub" pkg="homework1" type="info_pub" output="screen" />
 	<node name="options" pkg="homework1" type="options" output="screen" launch-prefix="gnome-terminal --command"/>
 	<node name="viewer" pkg="homework1" type="viewer" output="screen" launch-prefix="gnome-terminal --command" />
 </launch>
