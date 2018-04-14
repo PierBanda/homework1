@@ -43,6 +43,10 @@ esempio esecuzione
 ------------------------------------------------------------------------------------------------------------------------------
 ![esempio esecuzione](https://github.com/PierBanda/homework1/blob/master/img/Schermata%20del%202018-04-14%2011-39-40.png)
 
+verranno aperti due nuovi terminali uno per options e per viewer tramite tastiera si potrà cambiare l'opzione nel terminale 
+seguendo le istruzione che compaiono a schermo.
+Il nodo info_pub stamperà eventuali messaggi di errore nella console da dove avete eseguito il laucher (vedi in basso per il laucher)
+
 installazione:
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -66,4 +70,5 @@ esecuzione:
 ------------------------------------------------------------------------------------------------------------------------------
 
 si può eseguire il tutto con il laucher digitando
+
 `roslaunch homework1 homework1.launch`
