@@ -36,9 +36,11 @@ stampa nella console i dati ricevuti nella forma stabilita
 
 rappresentazione grafica dei nodi:
 ------------------------------------------------------------------------------------------------------------------------------
-![Schema dei nodi](https://octodex.github.com/images/yaktocat.png)
+![Schema dei nodi](homework1/img/rosgraph.png)
 esempio esecuzione
 ------------------------------------------------------------------------------------------------------------------------------
+![esempio esecuzione](homework1/img/Schermata del 2018-04-14 11-39-40.png)
+
 installazione:
 ------------------------------------------------------------------------------------------------------------------------------
 
